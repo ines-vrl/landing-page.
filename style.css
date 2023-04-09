@@ -1,0 +1,182 @@
+body {
+    background-image: linear-gradient(to bottom, #92deb1, #89e49a, #8ae87c, #95ea56, #a8eb12);
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .top-container {
+    position: relative;
+    background-image: url(./images/paparazzi.png);
+    width: auto;
+    height: 181px;
+  }
+  
+  .title {
+    position: absolute;
+    color: hotpink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -230px;
+    margin-left: 532px;
+  }
+  
+  .description p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  section h2 {
+    margin-top: 5vh;
+    margin-left: 43vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  aside {
+    width: 24vw;
+    height: 59vh;
+    box-shadow: 3px 3px 8px 6px #9b2ffa;
+  }
+  
+  .discussion {
+    padding-left: 1vw;
+    margin-top: -55vh;
+  }
+  
+  .discussion h2,
+  .discussion h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .chat h2 {
+    text-align: center;
+    color: red;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .ulNav {
+    background-color: hotpink;
+    display: flex;
+    margin: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+  }
+  
+  .contact h3 {
+    margin-top: 35vh;
+  }
+  
+  article {
+    height: 50vh;
+  }
+  
+  .blogs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35vw;
+    margin-top: 20vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+  }
+  
+  .news1,
+  .news2 {
+    width: 30vw;
+  }
+  
+  .blogs .news1 a {
+    margin-left: -1.5vw;
+  }
+  
+  .blogs a:hover {
+    background-color: azure;
+  }
+  
+  section p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: hotpink;
+    width: auto;
+  }
+  
+  .ulfooter {
+    margin-top: 7vh;
+    display: flex;
+    overflow: hidden;
+    height: 6vh;
+    justify-content: space-around;
+  }
+  
+  .ulfooter li button a {
+    text-decoration: none;
+  }
+  
+  footer .contact {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .ulfooter button a {
+    color: white;
+  }
+  
+  .facebook {
+    background-color: blue;
+  }
+  
+  .instagram {
+    background-color: rgb(209, 14, 141);
+  }
+  
+  .twitter {
+    background-color: #06a3d7;
+  }
+  
+  .linkedin {
+    background-color: #0049d0;
+  }
+  
+  .ulfooter li button {
+    border-radius: 20%;
+  }
+
+  .zoom{
+    transform: scale(1.2);
+    transition: all 0.5s;
+  }
+  
+
+/* For screens smaller than 600px (mobile portrait) */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+    .ulNav{
+      display: inline-block;
+    }
+}
+
+/* For screens between 600px and 900px (tablet portrait) */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+      font-size: 18px;
+    }
+}
+
+/* For screens larger than 900px (desktop) */
+@media only screen and (min-width: 900px) {
+    body {
+      font-size: 20px;}}
+    
